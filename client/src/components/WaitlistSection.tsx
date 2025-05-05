@@ -79,7 +79,7 @@ export default function WaitlistSection() {
                 Join Our Waitlist
               </h2>
               <p className="text-gray-600 dark:text-gray-400 mb-6">
-                Be among the first to access StyleIt when we launch in June 2025. Early subscribers get exclusive app features!
+                Be among the first to access StyleIt when we launch in May-June 2025. Early subscribers get exclusive app features!
               </p>
 
               {!formSubmitted ? (
@@ -199,7 +199,7 @@ export default function WaitlistSection() {
                   <h3 className="text-2xl font-bold mb-4 font-playfair">Early Access Offer</h3>
                   <p className="mb-6">Early waitlist subscribers get bonus outfit templates and premium features</p>
                   <div className="inline-block border-2 border-white rounded-full px-6 py-3 font-bold">
-                    Launch: June 2025
+                    Launch: May-June 2025
                   </div>
                 </div>
               </div>

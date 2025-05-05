@@ -21,8 +21,8 @@ export default function StatsSection() {
       icon: "fas fa-clock",
     },
     { 
-      value: "June '25", 
-      label: "Launch Date", 
+      value: "May-June", 
+      label: "Launch Date 2025", 
       color: "text-primary",
       icon: "fas fa-rocket",
     },
