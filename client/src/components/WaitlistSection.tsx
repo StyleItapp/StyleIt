@@ -79,7 +79,7 @@ export default function WaitlistSection() {
                 Join Our Waitlist
               </h2>
               <p className="text-gray-600 dark:text-gray-400 mb-6">
-                Be among the first to access StyleIt when we launch. Early subscribers get exclusive bonuses!
+                Be among the first to access StyleIt when we launch in June 2025. Early subscribers get exclusive app features!
               </p>
 
               {!formSubmitted ? (

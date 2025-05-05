@@ -8,8 +8,7 @@ interface Testimonial {
   role: string;
   stars: number;
   quote: string;
-  memberSince: string;
-  plan: string;
+  betaTester: boolean;
 }
 
 export default function TestimonialsSection() {
@@ -21,29 +20,26 @@ export default function TestimonialsSection() {
     {
       image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
       name: "Sophie Chen",
-      role: "Fashion Enthusiast",
+      role: "Fashion Student",
       stars: 5,
-      quote: "The personalized styling advice and wardrobe organization tools helped me rediscover my style. I've never received so many compliments on my outfits!",
-      memberSince: "2022",
-      plan: "Advanced plan",
+      quote: "The app makes it so easy to scan my clothes and create outfit combinations. I love being able to plan my outfits for the week without trying everything on!",
+      betaTester: true,
     },
     {
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
       name: "Marcus Johnson",
-      role: "Fashion Blogger",
+      role: "Busy Professional",
       stars: 5,
-      quote: "The outfit planning tools are incredible. I can mix and match my existing wardrobe in ways I never thought of before. It's like having a personal stylist!",
-      memberSince: "2021",
-      plan: "Pro plan",
+      quote: "As someone who travels frequently, the packing list feature is a game changer. StyleIt knows exactly what I need to pack based on my scanned wardrobe.",
+      betaTester: true,
     },
     {
       image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
       name: "Aisha Williams",
       role: "Style Enthusiast",
       stars: 4.5,
-      quote: "As someone always struggling with what to wear, StyleIt's recommendations have saved me so much time and frustration. Now I feel confident in my outfits every day.",
-      memberSince: "2023",
-      plan: "Essential plan",
+      quote: "I've always struggled with creating outfits from my clothes. The AI suggestions have helped me discover combinations I would never have thought of!",
+      betaTester: true,
     },
   ];
 
@@ -85,10 +81,10 @@ export default function TestimonialsSection() {
       <div className="container mx-auto px-6">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 dark:text-white font-playfair">
-            Success Stories
+            Beta Tester Feedback
           </h2>
           <p className="text-gray-600 dark:text-gray-400">
-            Hear from fashion enthusiasts who transformed their style with StyleIt
+            Hear from our beta testers who've experienced StyleIt's features firsthand
           </p>
         </div>
 
@@ -136,7 +132,7 @@ export default function TestimonialsSection() {
                   </div>
                   <div className="mt-auto pt-4 border-t border-gray-100 dark:border-gray-700">
                     <p className="text-sm text-gray-500 dark:text-gray-400">
-                      Member since {testimonial.memberSince} • {testimonial.plan}
+                      {testimonial.betaTester && "Beta Program Participant • Spring 2025"}
                     </p>
                   </div>
                 </div>

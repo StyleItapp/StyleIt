@@ -2,10 +2,30 @@ import { motion } from "framer-motion";
 
 export default function StatsSection() {
   const stats = [
-    { value: "93%", label: "Style satisfaction rate", color: "text-primary" },
-    { value: "4.8/5", label: "User satisfaction", color: "text-secondary" },
-    { value: "250+", label: "Fashion collections", color: "text-accent" },
-    { value: "June 15", label: "Launch date", color: "text-primary" },
+    { 
+      value: "97%", 
+      label: "Beta Tester Satisfaction", 
+      color: "text-primary",
+      icon: "fas fa-smile",
+    },
+    { 
+      value: "1,000+", 
+      label: "Beta Participants", 
+      color: "text-secondary",
+      icon: "fas fa-users",
+    },
+    { 
+      value: "85%", 
+      label: "Time Saved Planning Outfits", 
+      color: "text-accent",
+      icon: "fas fa-clock",
+    },
+    { 
+      value: "June '25", 
+      label: "Launch Date", 
+      color: "text-primary",
+      icon: "fas fa-rocket",
+    },
   ];
 
   return (
@@ -20,7 +40,10 @@ export default function StatsSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.1, duration: 0.5 }}
             >
-              <h3 className={`text-4xl font-bold ${stat.color} font-playfair`}>{stat.value}</h3>
+              <div className="inline-flex items-center justify-center w-12 h-12 bg-gray-200 dark:bg-gray-700 rounded-full mb-3">
+                <i className={`${stat.icon} ${stat.color}`}></i>
+              </div>
+              <h3 className={`text-3xl font-bold ${stat.color} font-playfair`}>{stat.value}</h3>
               <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">{stat.label}</p>
             </motion.div>
           ))}

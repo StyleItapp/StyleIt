@@ -11,44 +11,44 @@ interface Feature {
 export default function FeaturesSection() {
   const features: Feature[] = [
     {
-      icon: "fas fa-tshirt",
-      title: "Personalized Styling",
-      description: "Get outfit recommendations tailored to your body type, style preferences, and existing wardrobe.",
+      icon: "fas fa-camera",
+      title: "Scan Your Clothes",
+      description: "Easily scan and digitize your entire wardrobe with our intelligent clothing recognition system.",
       bgClass: "bg-primary/10 dark:bg-primary/20",
       iconClass: "text-primary",
     },
     {
-      icon: "fas fa-camera",
-      title: "Virtual Try-On",
-      description: "See how new clothes would look on you before purchasing with our augmented reality tool.",
+      icon: "fas fa-paint-brush",
+      title: "Create Outfit Collages",
+      description: "Make magazine-style outfit collages using your actual clothes to visualize complete looks.",
       bgClass: "bg-secondary/10 dark:bg-secondary/20",
       iconClass: "text-secondary",
     },
     {
-      icon: "fas fa-box",
-      title: "Wardrobe Organization",
-      description: "Digitize and categorize your entire wardrobe for easy outfit planning and shopping.",
+      icon: "fas fa-magic",
+      title: "AI Outfit Generator",
+      description: "Let our AI create perfect outfit combinations from your scanned wardrobe based on your style preferences.",
       bgClass: "bg-accent/10 dark:bg-accent/20",
       iconClass: "text-accent",
     },
     {
-      icon: "fas fa-shopping-bag",
-      title: "Smart Shopping Lists",
-      description: "Get recommendations for pieces that will complement your existing wardrobe and style goals.",
+      icon: "fas fa-calendar-alt",
+      title: "Outfit Calendar",
+      description: "Plan what to wear in advance and never stress about daily outfit decisions again.",
       bgClass: "bg-primary/10 dark:bg-primary/20",
       iconClass: "text-primary",
     },
     {
-      icon: "fas fa-chart-line",
-      title: "Trend Forecasts",
-      description: "Stay ahead with personalized fashion trend predictions based on your style profile.",
+      icon: "fas fa-suitcase",
+      title: "Smart Packing Lists",
+      description: "Create packing lists that automatically tell you which clothes to pack based on your trip details.",
       bgClass: "bg-secondary/10 dark:bg-secondary/20",
       iconClass: "text-secondary",
     },
     {
-      icon: "fas fa-comments",
-      title: "Style Community",
-      description: "Connect with fashion enthusiasts and stylists for inspiration and advice on your outfits.",
+      icon: "fas fa-chart-pie",
+      title: "Wardrobe Analytics",
+      description: "Get insights into your clothing usage, favorite combinations, and wardrobe statistics.",
       bgClass: "bg-accent/10 dark:bg-accent/20",
       iconClass: "text-accent",
     },
@@ -74,10 +74,10 @@ export default function FeaturesSection() {
       <div className="container mx-auto px-6">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 dark:text-white font-playfair">
-            Smart Styling Features
+            Your Wardrobe, Reimagined
           </h2>
           <p className="text-gray-600 dark:text-gray-400">
-            Everything you need to elevate your personal style
+            Turn your real clothes into a digital styling experience
           </p>
         </div>
 

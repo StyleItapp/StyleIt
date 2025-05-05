@@ -3,16 +3,16 @@ import { motion } from "framer-motion";
 export default function FeatureShowcase() {
   const featuresPoints = [
     {
-      title: "Weekly Style Updates",
-      description: "Stay ahead with the latest fashion trends and styling tips",
+      title: "Magazine-Style Outfit Collages",
+      description: "Arrange your scanned clothes into professional-looking outfit layouts",
     },
     {
-      title: "Outfit Builder Tools",
-      description: "Create stunning combinations from your existing wardrobe",
+      title: "Personal Wardrobe Scanning",
+      description: "Use your phone to scan and digitize your actual clothes in seconds",
     },
     {
-      title: "Color Coordination",
-      description: "Learn which colors work best together for your skin tone",
+      title: "AI Outfit Recommendations",
+      description: "Get outfit suggestions using only the clothes you already own",
     },
   ];
 
@@ -31,7 +31,7 @@ export default function FeatureShowcase() {
               >
                 <img 
                   src="https://images.unsplash.com/photo-1551232864-3f0890e580d9?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
-                  alt="Fashion styling" 
+                  alt="Scanning clothes with smartphone" 
                   className="w-full h-full object-cover"
                 />
               </motion.div>
@@ -44,7 +44,7 @@ export default function FeatureShowcase() {
               >
                 <img 
                   src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
-                  alt="Wardrobe organization" 
+                  alt="Organized digital wardrobe" 
                   className="w-full h-full object-cover"
                 />
               </motion.div>
@@ -57,7 +57,7 @@ export default function FeatureShowcase() {
               >
                 <img 
                   src="https://images.unsplash.com/photo-1532453288672-3a27e9be9efd?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
-                  alt="Fashion outfit collage" 
+                  alt="Personal outfit collage" 
                   className="w-full h-full object-cover"
                 />
               </motion.div>
@@ -70,7 +70,7 @@ export default function FeatureShowcase() {
               >
                 <img 
                   src="https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
-                  alt="Fashion styling" 
+                  alt="Planning outfit with smartphone app" 
                   className="w-full h-full object-cover"
                 />
               </motion.div>
@@ -84,10 +84,10 @@ export default function FeatureShowcase() {
             viewport={{ once: true }}
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-6 dark:text-white font-playfair">
-              Style Inspiration & Guidance
+              Your Real Clothes, Digitized
             </h2>
             <p className="text-gray-600 dark:text-gray-400 mb-8">
-              Our platform combines visual inspiration with practical style advice. From outfit coordination to wardrobe organization, we've got you covered.
+              StyleIt turns your physical wardrobe into a digital styling playground. Scan your clothes with your phone and create beautiful outfit combinations from items you already own.
             </p>
 
             <ul className="space-y-4">
