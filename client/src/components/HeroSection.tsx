@@ -17,10 +17,10 @@ export default function HeroSection() {
             transition={{ duration: 0.5 }}
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 dark:text-white font-playfair">
-              Elevate Your <span className="text-primary">Style</span> Journey
+              Your Clothes, <span className="text-primary">Your Style</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-700 mb-8 max-w-lg dark:text-gray-300">
-              Access exclusive fashion styling tips, wardrobe organization, and personalized outfit recommendations with flexible subscription options.
+              Scan your actual clothes, create magazine-style outfit collages, and let AI help you build fantastic outfits from items you already own - all for a one-time purchase.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="#waitlist">
@@ -41,7 +41,7 @@ export default function HeroSection() {
                 <div className="w-10 h-10 rounded-full border-2 border-white dark:border-dark-bg bg-[url('https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80')] bg-cover"></div>
               </div>
               <div>
-                <p className="text-sm font-medium dark:text-gray-300">Joined by <span className="text-primary font-semibold">2,500+</span> fashion enthusiasts</p>
+                <p className="text-sm font-medium dark:text-gray-300">Joined by <span className="text-primary font-semibold">1,000+</span> beta testers</p>
               </div>
             </div>
           </motion.div>

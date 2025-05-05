@@ -196,10 +196,10 @@ export default function WaitlistSection() {
               <div className="absolute inset-0 w-full h-full bg-[url('https://images.unsplash.com/photo-1490481651871-ab68de25d43d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80')] bg-cover bg-center mix-blend-overlay opacity-60"></div>
               <div className="absolute inset-0 flex items-center justify-center p-12">
                 <div className="text-white text-center">
-                  <h3 className="text-2xl font-bold mb-4 font-playfair">Launch Offer</h3>
-                  <p className="mb-6">Early subscribers get 30% off their first three months of any plan</p>
+                  <h3 className="text-2xl font-bold mb-4 font-playfair">Early Access Offer</h3>
+                  <p className="mb-6">Early waitlist subscribers get bonus outfit templates and premium features</p>
                   <div className="inline-block border-2 border-white rounded-full px-6 py-3 font-bold">
-                    Launch: June 15, 2023
+                    Launch: June 2025
                   </div>
                 </div>
               </div>
