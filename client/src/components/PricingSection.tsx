@@ -67,7 +67,7 @@ export default function PricingSection() {
 
         <div className="mt-12 text-center">
           <p className="text-gray-600 dark:text-gray-400">
-            Coming to App Store and Google Play in May-June 2025
+            Coming to App Store and Google Play in June 2025
           </p>
         </div>
       </div>
